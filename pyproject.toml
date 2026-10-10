@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guiutils"
+version = "1.0.0"
+description = "Librería modular de componentes visuales en Tkinter y utilidades de texto"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+authors = [
+    { name = "Desarrollador", email = "estudiante@itmerida.mx" }
+]
+
+[tool.setuptools.packages.find]
+include = ["guiutils*"]
